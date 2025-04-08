@@ -1,0 +1,115 @@
+/* Убираем отступы и паддинги у всех элементов */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Удаляем стандартные стили списков */
+    ul, ol {
+    list-style: none;
+}
+
+/* Удаляем стандартные стили ссылок */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Убираем курсив у address, i, em и прочее */
+i, em {
+    font-style: normal;
+}
+
+body{
+    margin: 0 auto;
+    width: 1440px;
+}
+
+header{
+    display: flex;
+    width: 1440px;
+    height: 800px;
+    background: url("/images/header-image.png") no-repeat;
+    
+}
+
+.right-menu-header{
+    display: flex;
+    flex-direction: column;
+    margin-left: 220px;
+    margin-top: 20px;
+    width: 40px;
+    align-items: center;
+    
+}
+
+.profile, .like, .search{
+    padding-left: 5px;
+}
+
+.right-menu-header-icon{
+    display: flex;
+    flex-direction: column;
+    gap: 46px;
+}
+
+.img-header{
+    display: flex;
+}
+
+.text-header{
+    
+    
+    
+}
+
+.navicon{
+    display: flex;
+    gap: 10px;
+    margin-top: 22px;
+}
+
+.navicon-button{
+    font-size: 30px;
+}
+
+.navicon-text{
+    color: #fff;
+    font-family: Megrim, system-ui;
+    font-size: 128px;
+}
+
+.elements-header{
+    display: flex;
+    flex-direction: column;
+    gap: 300px;
+    margin-left: 67px;
+}
+
+.navlist{
+    display: flex;
+
+}
+
+.navlist-addresses{
+    display: flex;
+    gap: 300px;
+}
+
+.navlist-slider{
+    display: flex;
+    gap: 100px;
+    color: #fff;
+}
+
+.text-header-denim{
+    margin-left: 200px;
+    transform: rotate(90deg);
+    font-size: 180px;
+    font-family: Roboto, sans;
+    font-weight: bold;
+    letter-spacing: 5px;
+    color: rgba(255, 255, 255, 0.5);
+    line-height: 10;
+}
